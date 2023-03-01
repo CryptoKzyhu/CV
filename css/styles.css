@@ -1,0 +1,25 @@
+body {
+    background-color: ghostwhite;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 8px;
+    border-color: lightgrey;
+    height: 1px;
+    width: 10%;
+}
+
+h1 {
+color:  #70B1CF
+}
+
+h3 {
+    color:  #70B1CF
+}
+
+tbody {
+    border-style: groove;
+    border-color: #70B1CF;
+    border-width: 3px;
+}
