@@ -41,9 +41,12 @@ hr {
     color: #B2B2B2;
     margin: 30px auto auto;
     clear:both;
-    border-top-style: dashed;
-    border-top-width: 5px;
+    border-style: dashed;
+    border-width: 5px;
     width: 50%;
+    height: 8px;
+    border-radius: 100%;
+
 }
 
 p {
@@ -59,6 +62,7 @@ p {
     font-size: 1.3rem;
     padding:50px;
     padding-top:30px;
+ 
 }
 
 a {
