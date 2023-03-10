@@ -112,8 +112,7 @@ span {
 .top-container{
     
     background-color: #B2B2B2;
-
-} 
+    } 
 
 .fluid-container{
     background-color: #EAEAEA;
@@ -130,9 +129,13 @@ span {
     margin:0 auto;
 }
 .a-row {
-    margin-top:20px;
+    border-top: #ffc107 solid 3px;
+    padding-top:20px;
+ 
 }
-
+.row-city {
+    border-bottom: #ffc107 solid 3px;
+}
 .a-col {
     margin-top:40px;
 }
@@ -207,7 +210,7 @@ font-size: 1.7rem;
 
 .profile-foto{
     border-radius: 100%;
-    border: #ffc107 dashed 4px;
+    border: #ffc107 dashed 1px;
     color: #B2B2B2;
     height: auto;
     width: 205px;
