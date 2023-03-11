@@ -124,6 +124,17 @@ span {
     padding-top: 40px;
 
 }
+#experience {
+    border-top: #ffc107 solid 3px;
+    background-color: #fff;
+    padding: 3% 10%;
+}
+
+#hobby1 {
+    border-top: #ffc107 solid 3px;
+    background-color: #EAEAEA;
+    padding: 3% 10%;
+}
 
 .row {
     margin:0 auto;
@@ -142,8 +153,7 @@ span {
 .hobby1 {
     background-color: white;
     border-radius: 30px;
-    margin: 30px;
-    padding: 30px;
+       padding: 30px;
     background-color: #ffc107;
 
 }
@@ -172,6 +182,7 @@ font-size: 1.7rem;
 }
 
 .testemonials { 
+    border-top: #ffc107 solid 3px;
     background-color: white;
     padding: 3% 10%;
 }
@@ -257,7 +268,7 @@ color: #ffc107;
     overflow: auto;
     position: relative;
     border: #ffc107 dashed 4px;
-    background-color: white;
+    background-color: #EAEAEA;
     border-radius: 30px;
   }
 
