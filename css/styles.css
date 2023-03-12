@@ -1,21 +1,28 @@
+
 body {
     margin: 0px;
     background-color: #EAEAEA;
     text-align: center;
     font-family: 'Tilt Neon', cursive;
     font-size: 2rem;
+    color: #1796B3;
 }
 
 h1 {
-    margin: 20px auto 40px;
-    color: black;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 5rem;
-    font-weight: normal;
+    margin: 10vh auto 30vh;
+    background-blend-mode:darken;
+    color:#ffc107;
+    padding-bottom: 20px;
+    font-family: 'Architects Daughter', cursive; 
+    font-size: 7rem;
+    backdrop-filter: brightness(20%);
+    
 
 }
 
 h2 {
+
+    color:#ffc107;
     font-family: 'Tilt Neon', cursive;
     font-size: 2.5rem;
     font-family: 'Tilt Neon', cursive;
@@ -25,14 +32,18 @@ h2 {
 }
 
 #kiero {
+    color:#ffc107;
     font-family: 'Architects Daughter', cursive;
     font-size: 2.5rem;
     font-weight: normal;
-    margin: 0px auto 10px;
+    margin: 0px auto ;
+    padding-bottom: 30px;
+    padding-bottom: 30vh;
 }
 
 h3 {
     font-family: 'Tilt Neon', cursive;
+    color: #00242C;
     font-size: 2rem;
     font-weight: normal;
     text-align: center;
@@ -40,7 +51,7 @@ h3 {
 }
 
 hr {
-    color: #ffc107;
+    color:  #1796B3;
     margin: 30px auto auto;
     clear:both;
     border-style: dashed;
@@ -52,7 +63,7 @@ hr {
 }
 
 p {
-    color: #3C4048;
+    color:#00242C;
     margin: 0px;
     line-height: 1.5;
     text-align: left;
@@ -111,28 +122,42 @@ span {
 /****************** CONTAINERS ******************/
 .top-container{
     
-    background-color: #B2B2B2;
+    background-image: url("../images/tło.png");
+    background-size: cover;
+    background-position: bottom;
+    backdrop-filter: blur(10px);
     } 
 
 .fluid-container{
-    background-color: #EAEAEA;
+    background-color: #00242c;
     padding: 3% 10%;
 }
 
 .bottom-container{
-    background-color: #B2B2B2;
+    background-color: #00242C;
     padding-top: 40px;
 
 }
+
+#bottom-container{
+    background-color: #00242C;
+
+}
+
+#bottom-container h2{
+    background-color: #00242C;
+margin-top: 0PX;
+padding-top: 30px;
+}
+
 #experience {
-    border-top: #ffc107 solid 3px;
-    background-color: #fff;
+
+    background-color:#1796B3;
     padding: 3% 10%;
 }
 
 #hobby1 {
-    border-top: #ffc107 solid 3px;
-    background-color: #EAEAEA;
+    background-color: #00242C;
     padding: 3% 10%;
 }
 
@@ -151,30 +176,37 @@ span {
     margin-top:40px;
 }
 .hobby1 {
-    background-color: white;
     border-radius: 30px;
-       padding: 30px;
+    padding: 30px;
     background-color: #ffc107;
 
 }
 
-#carouselExampleSlidesOnly {
-padding: 3% 10%;
-background-color: #EAEAEA;
-border-radius: 30px;
-font-size: 1.7rem;
+.hobby1 h2 {
+   color: #00242C;
 }
 
+.testemonials h3, .hobbyp {
+   color: #1796B3;
+
+}
+#carouselExampleSlidesOnly {
+padding: 3% 10%;
+background-color:  #00242C;
+border-radius: 30px;
+font-size: 1.7rem;
+color: #1796B3;
+}
 
 
 
 .opis {
     margin-top: 15px;
     padding:15px;
-    border-radius: 30px;
+   
     font-size: 1.7rem;
-    border: #ffc107 dashed 4px;
-    background-color: white;
+    color:  #1796B3;
+    background-color: #00242C;
 
 }
 .doś {
@@ -182,8 +214,8 @@ font-size: 1.7rem;
 }
 
 .testemonials { 
-    border-top: #ffc107 solid 3px;
-    background-color: white;
+
+    background-color: #1796B3;
     padding: 3% 10%;
 }
 .skills {
@@ -197,8 +229,14 @@ font-size: 1.7rem;
     padding:1% 2%;
 }
 .card-header {
-   background-color:  #EAEAEA;
+   background-color:  #00242C;
 }
+.card-body {
+    background-color:  #1796B3;
+    color: #00242C;
+ }
+
+
 /****************** IMAGES ******************/
 .top-cloud{
     position: relative;
@@ -220,13 +258,14 @@ font-size: 1.7rem;
 }
 
 .profile-foto{
-    border-radius: 100%;
-    border: #ffc107 dashed 1px;
-    color: #B2B2B2;
+    border-radius: 40% ;
+
+
     height: auto;
-    width: 205px;
+    width: 300px;
     margin: 5%;
-    filter:grayscale(40%)
+    transform: scaleX(-1);
+    filter: brightness(80%);
 }
 
 .icons {
@@ -265,11 +304,11 @@ color: #ffc107;
 .scrollable-container {
     width: 100%;
     height: 250px;
+    color: #00242C;
     overflow: auto;
     position: relative;
-    border: #ffc107 dashed 4px;
-    background-color: #EAEAEA;
-    border-radius: 30px;
+    background-color:#1796B3;
+
   }
 
   .scrollable-container::-webkit-scrollbar {
@@ -281,7 +320,7 @@ color: #ffc107;
       }
       
       .scrollable-container::-webkit-scrollbar-thumb {
-        background-color: grey;
+        background-color: #ffc107;
       }
 
   .scrollable-table {
@@ -291,10 +330,10 @@ color: #ffc107;
   
 
   .scrollable-table td {
-    border: 1px solid #ddd;
+    border: 1px solid #00242C;
     padding: 8px;
     text-align: left;
-    color: #3C4048;
+    color: #00242C;
     line-height: 1;
     font-size: 1.6rem;
   }
