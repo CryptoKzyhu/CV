@@ -244,6 +244,10 @@ color: #1796B3;
 
 }
 
+.rev {
+    filter: invert(80%);
+}
+
 .bottom-cloud{
     position: relative;
 
